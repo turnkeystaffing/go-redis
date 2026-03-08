@@ -3,31 +3,11 @@
 *.test
 *.out
 
-# Configuration
-/config/config.yml
-# JWT keys (loaded from environment variables)
-configs/auth/jwt/*.pem
-
-# Pipeline state files
-.story-auto-pipeline-state.yaml
-.epic-pipeline-state.yaml
-scripts/epic-auto-pipeline.sh
-scripts/story-auto-pipeline.sh
-scripts/pipeline-step-hook.sh
-_bmad-output/bmb-creations/workflows/story-auto-pipeline/*
-Jenkinsfile*
-
 *.env*
 
 # IDEs
 .idea
 .vscode/
-
-# Project-specific
-.specify
-.claude
-_bmad
-__artifacts
 
 # Go vendor
 /vendor
